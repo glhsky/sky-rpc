@@ -1,7 +1,7 @@
 package com.sky.rpc.utils;
 
 import com.google.common.base.Strings;
-import com.sky.rpc.model.model.ServerInfo;
+import com.sky.rpc.model.ServerInfo;
 
 /**
  * @author bainao

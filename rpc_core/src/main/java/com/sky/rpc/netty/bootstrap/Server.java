@@ -1,4 +1,4 @@
-package com.sky.rpc.netty.netty.bootstrap;
+package com.sky.rpc.netty.bootstrap;
 
 /**
  * @author bainao

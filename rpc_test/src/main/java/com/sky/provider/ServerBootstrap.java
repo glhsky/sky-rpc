@@ -1,8 +1,8 @@
 package com.sky.provider;
 
 import com.sky.constants.Constants;
-import com.sky.rpc.model.model.ServerInfo;
-import com.sky.rpc.netty.netty.bootstrap.RpcServer;
+import com.sky.rpc.model.ServerInfo;
+import com.sky.rpc.netty.bootstrap.RpcServer;
 import com.sky.rpc.registry.ServiceRegistry;
 import com.sky.rpc.registry.zk.ZookeeperServiceRegistry;
 

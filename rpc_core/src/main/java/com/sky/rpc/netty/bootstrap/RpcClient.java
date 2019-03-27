@@ -1,10 +1,10 @@
-package com.sky.rpc.netty.netty.bootstrap;
+package com.sky.rpc.netty.bootstrap;
 
-import com.sky.rpc.model.model.Request;
-import com.sky.rpc.model.model.Response;
-import com.sky.rpc.model.model.builder.ResponseBuilder;
-import com.sky.rpc.netty.netty.codec.Decoder;
-import com.sky.rpc.netty.netty.codec.Encoder;
+import com.sky.rpc.model.Request;
+import com.sky.rpc.model.Response;
+import com.sky.rpc.model.builder.ResponseBuilder;
+import com.sky.rpc.netty.codec.Decoder;
+import com.sky.rpc.netty.codec.Encoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;

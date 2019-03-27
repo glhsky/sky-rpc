@@ -2,7 +2,7 @@ package com.sky.rpc.registry;
 
 import com.google.common.base.Strings;
 import com.sky.constants.Constants;
-import com.sky.rpc.model.model.ServerInfo;
+import com.sky.rpc.model.ServerInfo;
 
 /**
  * @author bainao

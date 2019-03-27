@@ -1,11 +1,11 @@
-package com.sky.rpc.netty.netty.bootstrap;
+package com.sky.rpc.netty.bootstrap;
 
 import com.google.common.collect.Maps;
 import com.sky.annotation.Provider;
-import com.sky.rpc.model.model.ServerInfo;
-import com.sky.rpc.netty.netty.codec.Decoder;
-import com.sky.rpc.netty.netty.codec.Encoder;
-import com.sky.rpc.netty.netty.handler.RpcServerHandler;
+import com.sky.rpc.model.ServerInfo;
+import com.sky.rpc.netty.handler.RpcServerHandler;
+import com.sky.rpc.netty.codec.Decoder;
+import com.sky.rpc.netty.codec.Encoder;
 import com.sky.rpc.registry.ServiceRegistry;
 import com.sky.rpc.utils.ServiceNameUtils;
 import io.netty.bootstrap.ServerBootstrap;

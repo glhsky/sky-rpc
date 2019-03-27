@@ -1,4 +1,4 @@
-package com.sky.rpc.model.model;
+package com.sky.rpc.model;
 
 import lombok.Data;
 

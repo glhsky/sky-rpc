@@ -1,6 +1,6 @@
 package com.sky.rpc.registry.zk;
 
-import com.sky.rpc.model.model.ServerInfo;
+import com.sky.rpc.model.ServerInfo;
 import com.sky.rpc.registry.RegistryUtils;
 import com.sky.rpc.registry.ServiceDiscover;
 import com.sky.rpc.registry.ServiceRegistry;

@@ -1,8 +1,8 @@
-package com.sky.rpc.netty.netty.handler;
+package com.sky.rpc.netty.handler;
 
-import com.sky.rpc.model.model.Request;
-import com.sky.rpc.model.model.Response;
-import com.sky.rpc.model.model.builder.ResponseBuilder;
+import com.sky.rpc.model.Request;
+import com.sky.rpc.model.Response;
+import com.sky.rpc.model.builder.ResponseBuilder;
 import com.sky.rpc.utils.ServiceNameUtils;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandler;

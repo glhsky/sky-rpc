@@ -1,7 +1,7 @@
-package com.sky.rpc.netty.netty.bootstrap;
+package com.sky.rpc.netty.bootstrap;
 
-import com.sky.rpc.model.model.Request;
-import com.sky.rpc.model.model.Response;
+import com.sky.rpc.model.Request;
+import com.sky.rpc.model.Response;
 
 /**
  * @author bainao

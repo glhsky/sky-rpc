@@ -1,6 +1,6 @@
-package com.sky.rpc.model.model.builder;
+package com.sky.rpc.model.builder;
 
-import com.sky.rpc.model.model.Request;
+import com.sky.rpc.model.Request;
 
 /**
  * @author bainao

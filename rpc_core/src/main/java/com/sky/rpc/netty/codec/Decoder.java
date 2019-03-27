@@ -1,4 +1,4 @@
-package com.sky.rpc.netty.netty.codec;
+package com.sky.rpc.netty.codec;
 
 import com.sky.rpc.serializer.KryoSerializer;
 import com.sky.rpc.serializer.Serializer;

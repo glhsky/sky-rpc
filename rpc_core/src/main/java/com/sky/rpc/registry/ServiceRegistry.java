@@ -1,6 +1,6 @@
 package com.sky.rpc.registry;
 
-import com.sky.rpc.model.model.ServerInfo;
+import com.sky.rpc.model.ServerInfo;
 
 /**
  * @author bainao
