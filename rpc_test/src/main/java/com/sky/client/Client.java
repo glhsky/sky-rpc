@@ -1,9 +1,10 @@
 package com.sky.client;
 
 import com.sky.api.IHelloService;
-import com.sky.rpc.proxy.DefaultProxy;
-import com.sky.rpc.registry.ServiceDiscover;
-import com.sky.rpc.registry.zk.ZookeeperServiceDiscover;
+import com.sky.rpc.client.ServiceDiscover;
+import com.sky.rpc.client.ZookeeperServiceDiscover;
+import com.sky.rpc.client.proxy.DefaultProxy;
+
 
 /**
  * @author bainao

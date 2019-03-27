@@ -1,7 +1,7 @@
 package com.sky.provider;
 
-import com.sky.annotation.Provider;
 import com.sky.api.IHelloService;
+import com.sky.rpc.server.Provider;
 
 /**
  * @author bainao
