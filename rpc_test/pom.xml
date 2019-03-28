@@ -11,11 +11,6 @@
 
     <artifactId>rpc_test</artifactId>
     <dependencies>
-        <!--<dependency>
-            <groupId>com.sky</groupId>
-            <artifactId>rpc_core</artifactId>
-            <version>${parent.version}</version>
-        </dependency>-->
         <dependency>
             <groupId>com.sky</groupId>
             <artifactId>server</artifactId>

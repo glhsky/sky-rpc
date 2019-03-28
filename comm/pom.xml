@@ -37,7 +37,6 @@
         <zookeeper.version>3.4.10</zookeeper.version>
         <zkclient.version>0.10</zkclient.version>
         <netty.version>4.1.7.Final</netty.version>
-        <reflections.version>0.9.11</reflections.version>
         <cglib.version>3.2.0</cglib.version>
         <lombok.version>1.16.20</lombok.version>
     </properties>
@@ -78,11 +77,6 @@
             <groupId>com.esotericsoftware</groupId>
             <artifactId>kryo</artifactId>
             <version>${kryo.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>${reflections.version}</version>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
