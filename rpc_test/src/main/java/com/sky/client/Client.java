@@ -5,6 +5,8 @@ import com.sky.rpc.client.ServiceDiscover;
 import com.sky.rpc.client.ZookeeperServiceDiscover;
 import com.sky.rpc.client.proxy.DefaultProxy;
 
+import java.util.Map;
+
 
 /**
  * @author bainao
@@ -19,6 +21,24 @@ public class Client {
 
         System.out.println(helloService.sayHello("bainao1,你好帅啊"));
         System.out.println(helloService.sayHello("bainao2,你好帅啊"));
-        System.exit(0);
+        //System.exit(0);
+        //测试一下,节点更新
+        while (true) {
+            Map<String, Map<String, Integer>> map = ServiceDiscover.serverMap;
+            for (Map.Entry<String, Map<String, Integer>> entry : map.entrySet()) {
+                for (Map.Entry<String, Integer> entry1 : entry.getValue().entrySet()) {
+                    System.out.println(entry1.getKey());
+                    System.out.println(entry1.getValue());
+                }
+            }
+            System.out.println("==========================");
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+
     }
 }
